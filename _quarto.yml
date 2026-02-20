@@ -22,8 +22,8 @@ website:
       #    href: team/PI/PI.qmd
        # - text: "Members"
       #    href: team/members/members.qmd
-      #- text: "Publications"
-      #  href: publications/publications.qmd
+      - text: "Publications"
+        href: publications/publications.html
       #- text: "Educational Resources"
       #  href: teaching/index.qmd
       
