@@ -15,7 +15,7 @@ Investigating how changing precipitation patterns affect watershed hydrology acr
 :::
 
 ::: g-col-6
-### Wildfires 
+### Wildfires
 
 Developing geospatial tools to quantify ecosystem services in urban watersheds.
 
