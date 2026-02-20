@@ -6,16 +6,35 @@ output-dir: docs
 
 ## Tools & Infrastructure
 
+### Geospatial
+
+-   GNSS surveying system : Emlid 2
+
+-   Ground based Thermal Infrared Imagerie
+
+-   O2 Lite Lidar Slam Scanner
+
+### Hydrological
+
+-   Flowtracker 2
+
+## Carbon sensing
+
+-   Data loggers: Campbell Scientific
+
+-   Oxygen: Mini-Do2T
+
+-   CO2: Vaisala, C-sense and mini-sensors
+
+-   CH4: Pro-Oceanus, Solub-blue and mini sensors.
+
+-   CO2 in air: K33 sensor
+
 ## Field Sites
 
-```{=html}
-<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17" 
-        width="100%" 
-        height="480"
-        style="border:0;"
-        allowfullscreen>
+<iframe src="https://www.google.com/maps/d/embed?mid=12SbWOxuecU_SBebcJAW0mnsBCFvE0ak&amp;ehbc=2E312F" width="640" height="480">
+
 </iframe>
-```
 
 ## Funded Projects
 

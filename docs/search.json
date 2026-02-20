@@ -25,7 +25,7 @@
     "href": "research/research.html",
     "title": "Research",
     "section": "",
-    "text": "Investigating how changing precipitation patterns affect watershed hydrology across Quebec.\n**Funding:** NSERC Discovery Grant **Duration:** 2023-2026 **Lead:** A.Campeau\n\n\n\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\n**Funding:** FRQ-new researcher **Duration:** 2024-2027 **Lead:**A.Campeau\n\n\n\n\n\nFunding: FCI leader // Duration: 2024-2026 // Lead: A.Campeau"
+    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2"
   },
   {
     "objectID": "research/research.html#funded-projects",
@@ -124,5 +124,19 @@
     "title": "Permanent Solution: Remove [Journal Article] with Lua Filter",
     "section": "",
     "text": "Use the Lua filter (cleaner, runs during build)\nOR\nUse the JavaScript (if Lua filter has issues)\nBoth work equally well - pick whichever is easier for you to set up!"
+  },
+  {
+    "objectID": "research/research.html#tools-infrastructure",
+    "href": "research/research.html#tools-infrastructure",
+    "title": "Research",
+    "section": "",
+    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2"
+  },
+  {
+    "objectID": "research/research.html#carbon-sensing",
+    "href": "research/research.html#carbon-sensing",
+    "title": "Research",
+    "section": "Carbon sensing",
+    "text": "Carbon sensing\n\nData loggers: Campbell Scientific\nOxygen: Mini-Do2T\nCO2: Vaisala, C-sense and mini-sensors\nCH4: Pro-Oceanus, Solub-blue and mini sensors.\nCO2 in air: K33 sensor"
   }
 ]
