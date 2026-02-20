@@ -4,6 +4,19 @@ date-modified: today
 output-dir: docs
 ---
 
+## Tools & Infrastructure
+
+## Field Sites
+
+```{=html}
+<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17" 
+        width="100%" 
+        height="480"
+        style="border:0;"
+        allowfullscreen>
+</iframe>
+```
+
 ## Funded Projects
 
 ::::: grid
@@ -36,16 +49,3 @@ Developing geospatial tools to quantify ecosystem services in urban watersheds.
 :::::
 
 ## 
-
-## Field Sites
-
-```{=html}
-<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17" 
-        width="100%" 
-        height="480"
-        style="border:0;"
-        allowfullscreen>
-</iframe>
-```
-
-## Tools and infrastructure

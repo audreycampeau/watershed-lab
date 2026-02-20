@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Watershed Lab</title>
+<title>lua_filter_setup – Watershed Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -100,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/research.html" aria-current="page"> 
+    <a class="nav-link" href="../research/research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
 </ul>
@@ -141,77 +176,148 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#tools-infrastructure" id="toc-tools-infrastructure" class="nav-link active" data-scroll-target="#tools-infrastructure">Tools &amp; Infrastructure</a></li>
-  <li><a href="#field-sites" id="toc-field-sites" class="nav-link" data-scroll-target="#field-sites">Field Sites</a></li>
-  <li><a href="#funded-projects" id="toc-funded-projects" class="nav-link" data-scroll-target="#funded-projects">Funded Projects</a></li>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#permanent-solution-remove-journal-article-with-lua-filter" id="toc-permanent-solution-remove-journal-article-with-lua-filter" class="nav-link active" data-scroll-target="#permanent-solution-remove-journal-article-with-lua-filter">Permanent Solution: Remove [Journal Article] with Lua Filter</a>
+  <ul class="collapse">
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link" data-scroll-target="#the-problem">The Problem</a></li>
+  <li><a href="#the-solution" id="toc-the-solution" class="nav-link" data-scroll-target="#the-solution">The Solution</a></li>
+  <li><a href="#setup-one-time" id="toc-setup-one-time" class="nav-link" data-scroll-target="#setup-one-time">Setup (One-Time)</a>
+  <ul class="collapse">
+  <li><a href="#step-1-create-the-filter-file" id="toc-step-1-create-the-filter-file" class="nav-link" data-scroll-target="#step-1-create-the-filter-file">Step 1: Create the Filter File</a></li>
+  <li><a href="#step-2-update-your-publicationsindex.qmd" id="toc-step-2-update-your-publicationsindex.qmd" class="nav-link" data-scroll-target="#step-2-update-your-publicationsindex.qmd">Step 2: Update Your publications/index.qmd</a></li>
+  <li><a href="#step-3-test-it" id="toc-step-3-test-it" class="nav-link" data-scroll-target="#step-3-test-it">Step 3: Test It</a></li>
+  </ul></li>
+  <li><a href="#file-structure" id="toc-file-structure" class="nav-link" data-scroll-target="#file-structure">File Structure</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How It Works</a></li>
+  <li><a href="#future-workflow" id="toc-future-workflow" class="nav-link" data-scroll-target="#future-workflow">Future Workflow</a></li>
+  <li><a href="#benefits" id="toc-benefits" class="nav-link" data-scroll-target="#benefits">Benefits</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a></li>
+  <li><a href="#recommendation" id="toc-recommendation" class="nav-link" data-scroll-target="#recommendation">Recommendation</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Research</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 20, 2026</p>
-    </div>
-  </div>
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="tools-infrastructure" class="level2">
-<h2 class="anchored" data-anchor-id="tools-infrastructure">Tools &amp; Infrastructure</h2>
+<section id="permanent-solution-remove-journal-article-with-lua-filter" class="level1">
+<h1>Permanent Solution: Remove [Journal Article] with Lua Filter</h1>
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The Problem</h2>
+<p>EndNote exports include <code>type = {Journal Article}</code> which displays as <code>[Journal Article]</code> in your citations.</p>
 </section>
-<section id="field-sites" class="level2">
-<h2 class="anchored" data-anchor-id="field-sites">Field Sites</h2>
-<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&amp;ll=45.98854440917971%2C-74.01099000000002&amp;z=17" width="100%" height="480" style="border:0;" allowfullscreen="">
-</iframe>
+<section id="the-solution" class="level2">
+<h2 class="anchored" data-anchor-id="the-solution">The Solution</h2>
+<p>Use a <strong>Lua filter</strong> to automatically remove this text during rendering - no need to clean your .bib file!</p>
 </section>
-<section id="funded-projects" class="level2">
-<h2 class="anchored" data-anchor-id="funded-projects">Funded Projects</h2>
-<div class="grid">
-<section id="climate-impacts-on-watersheds" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="climate-impacts-on-watersheds">Climate Impacts on Watersheds</h3>
-<p>Investigating how changing precipitation patterns affect watershed hydrology across Quebec.</p>
-<p><strong>**Funding:**</strong> NSERC Discovery Grant <strong>**Duration:**</strong> 2023-2026 <strong>**Lead:**</strong> A.Campeau</p>
+<section id="setup-one-time" class="level2">
+<h2 class="anchored" data-anchor-id="setup-one-time">Setup (One-Time)</h2>
+<section id="step-1-create-the-filter-file" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-create-the-filter-file">Step 1: Create the Filter File</h3>
+<p>Create a file called <code>remove-type-brackets.lua</code> in your <strong>publications/</strong> folder:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode lua code-with-copy"><code class="sourceCode lua"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">-- remove-type-brackets.lua</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">-- Removes [Journal Article], [Book], etc. from bibliography output</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> Str<span class="op">(</span><span class="va">el</span><span class="op">)</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">-- Remove [Journal Article] and similar patterns</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">local</span> <span class="va">text</span> <span class="op">=</span> <span class="va">el</span><span class="op">.</span><span class="va">text</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="va">text</span> <span class="op">=</span> <span class="va">text</span><span class="op">:</span><span class="fu">gsub</span><span class="op">(</span><span class="st">"%[Journal Article%]"</span><span class="op">,</span> <span class="st">""</span><span class="op">)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="va">text</span> <span class="op">=</span> <span class="va">text</span><span class="op">:</span><span class="fu">gsub</span><span class="op">(</span><span class="st">"%[Book%]"</span><span class="op">,</span> <span class="st">""</span><span class="op">)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="va">text</span> <span class="op">=</span> <span class="va">text</span><span class="op">:</span><span class="fu">gsub</span><span class="op">(</span><span class="st">"%[Conference Paper%]"</span><span class="op">,</span> <span class="st">""</span><span class="op">)</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="va">text</span> <span class="op">=</span> <span class="va">text</span><span class="op">:</span><span class="fu">gsub</span><span class="op">(</span><span class="st">"%[Book Chapter%]"</span><span class="op">,</span> <span class="st">""</span><span class="op">)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="va">text</span> <span class="op">=</span> <span class="va">text</span><span class="op">:</span><span class="fu">gsub</span><span class="op">(</span><span class="st">"%[Thesis%]"</span><span class="op">,</span> <span class="st">""</span><span class="op">)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="va">pandoc</span><span class="op">.</span>Str<span class="op">(</span><span class="va">text</span><span class="op">)</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="kw">end</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="wildfires" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="wildfires">Wildfires</h3>
-<p>Developing geospatial tools to quantify ecosystem services in urban watersheds.</p>
-<p><strong>**Funding:**</strong> FRQ-new researcher <strong>**Duration:**</strong> 2024-2027 <strong>**Lead:**</strong>A.Campeau</p>
+<section id="step-2-update-your-publicationsindex.qmd" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-update-your-publicationsindex.qmd">Step 2: Update Your publications/index.qmd</h3>
+<p>Add the filter to your YAML header:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Publications"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">bibliography</span><span class="kw">:</span><span class="at"> campeau_pubs.bib</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">csl</span><span class="kw">:</span><span class="at"> global-change-biology.csl</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">nocite</span><span class="kw">:</span><span class="at"> </span><span class="st">'@*'</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">filters</span><span class="kw">:</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> remove-type-brackets.lua</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-</div>
-<div class="grid">
-<section id="contac-the-carbon-observatory-network-of-the-aquatic-and-terrestrial-connectivity" class="level3 g-col-6">
-<h3 class="anchored" data-anchor-id="contac-the-carbon-observatory-network-of-the-aquatic-and-terrestrial-connectivity">CONTAC | the carbon observatory network of the aquatic and terrestrial connectivity</h3>
-<p><strong>Funding:</strong> FCI leader // <strong>Duration:</strong> 2024-2026 // <strong>Lead:</strong> A.Campeau</p>
+<section id="step-3-test-it" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-test-it">Step 3: Test It</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The <code>[Journal Article]</code> text should now be gone!</p>
 </section>
-<div class="g-col-6">
+</section>
+<section id="file-structure" class="level2">
+<h2 class="anchored" data-anchor-id="file-structure">File Structure</h2>
+<p>Your publications folder should look like this:</p>
+<pre><code>publications/
+├── index.qmd
+├── campeau_pubs.bib              ← Original file, no cleaning needed!
+├── global-change-biology.csl
+└── remove-type-brackets.lua      ← New filter file</code></pre>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
+<p>The Lua filter: 1. Runs during Quarto rendering 2. Scans all text in the bibliography 3. Removes any <code>[Journal Article]</code>, <code>[Book]</code>, etc. text 4. Outputs clean citations</p>
+</section>
+<section id="future-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="future-workflow">Future Workflow</h2>
+<p>Now when you update publications:</p>
+<ol type="1">
+<li>Add new paper to EndNote</li>
+<li>Export entire library to .bib format</li>
+<li>Replace <code>campeau_pubs.bib</code> (don’t clean it!)</li>
+<li>Run <code>quarto render</code></li>
+</ol>
+<p><strong>Done!</strong> The filter automatically removes <code>[Journal Article]</code> every time.</p>
+</section>
+<section id="benefits" class="level2">
+<h2 class="anchored" data-anchor-id="benefits">Benefits</h2>
+<p>✅ <strong>No manual cleaning</strong> - Use EndNote exports directly<br>
+✅ <strong>Automatic</strong> - Works for all future publications<br>
+✅ <strong>Comprehensive</strong> - Removes all type indicators (Journal Article, Book, etc.)<br>
+✅ <strong>Maintenance-free</strong> - Set it once, forget about it</p>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
+<p><strong>If [Journal Article] still appears:</strong></p>
+<ol type="1">
+<li>Check that <code>remove-type-brackets.lua</code> is in the <code>publications/</code> folder</li>
+<li>Verify the <code>filters:</code> line is in your YAML header</li>
+<li>Make sure the file name matches exactly (case-sensitive)</li>
+<li>Try running <code>quarto render --verbose</code> to see if filter is loading</li>
+</ol>
+<p><strong>If you get a filter error:</strong></p>
+<p>Check that the Lua file has no syntax errors. The file should be exactly as shown above.</p>
+<p><strong>Alternative: Use JavaScript Instead</strong></p>
+<p>If Lua filters don’t work, you can add this to the bottom of your index.qmd:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">document</span><span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">'DOMContentLoaded'</span><span class="op">,</span> <span class="kw">function</span>() {</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Remove [Journal Article] and similar text</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> refs <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">'#refs .csl-entry, #refs div'</span>)<span class="op">;</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  refs<span class="op">.</span><span class="fu">forEach</span>(<span class="kw">function</span>(ref) {</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    ref<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> ref<span class="op">.</span><span class="at">innerHTML</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\[</span><span class="ss">Journal Article</span><span class="sc">\]</span><span class="ss">/g</span><span class="op">,</span> <span class="st">''</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\[</span><span class="ss">Book</span><span class="sc">\]</span><span class="ss">/g</span><span class="op">,</span> <span class="st">''</span>)</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\[</span><span class="ss">Conference Paper</span><span class="sc">\]</span><span class="ss">/g</span><span class="op">,</span> <span class="st">''</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">replace</span>(<span class="ss">/</span><span class="sc">\[</span><span class="ss">Book Chapter</span><span class="sc">\]</span><span class="ss">/g</span><span class="op">,</span> <span class="st">''</span>)<span class="op">;</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>})<span class="op">;</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>This JavaScript solution runs in the browser and strips out the unwanted text.</p>
+</section>
+<section id="recommendation" class="level2">
+<h2 class="anchored" data-anchor-id="recommendation">Recommendation</h2>
+<p><strong>Use the Lua filter</strong> (cleaner, runs during build)<br>
+OR<br>
+<strong>Use the JavaScript</strong> (if Lua filter has issues)</p>
+<p>Both work equally well - pick whichever is easier for you to set up!</p>
 
-</div>
-</div>
+
 </section>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
-
-
 </section>
 
 </main> <!-- /main -->
