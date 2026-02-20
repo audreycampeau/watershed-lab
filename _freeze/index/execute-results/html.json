@@ -1,0 +1,15 @@
+{
+  "hash": "aed51f003980ef91fa74581a4364e228",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"\"\nsubtitle: \"\"\npage-layout: article\n#title-block-banner: true\n#title-block-banner-color: \"#2c5f8d\"\n---\n\n![](images/top_banner.png){fig-align=\"center\"}\n\n## Welcome\n\nWe are an interdisciplinary research group studying watershed processes, with focus on biogeochemistry and hydrology. We want to understand how watershed processes opperate, and how they may respond to environmental changes.\n\nWhat is a watershed? It is the geospatial scale that is defined by the natural flow of water on land. This scale provides a unit to understand flows of matter and physical processes on land. It's greatest strenght is its interconnecteness. Watersheds fit inside one another, like russian dolls, which implies that one effect upstream can reverbates over kilometers downstreams.\n\nOur research is based mostly on field observations and combines multiple tools including automated and continuous *in-situ* sensor measurements, isotopic tracers, ground-based or drone imagery including, RGB, thermal infrared images and LIDAR.\n\nWe are based at the [departement of geography of University of Montréal](https://geographie.umontreal.ca/accueil/), located at Campus-MIL\n\n\n::: {.cell}\n\n:::\n\n\n## How to use this website\n\nThis websites serves as a **diffusion platform** for the research we do collectively in the lab. You will find:\n\n-   Tutorials and data viz material in the resources page.\n\n-   A list of publications, field sites, tools and infrastructures that form the core of our work.\n\n-   Individual portfolios from team members with details on their research projects.\n\nWe hold strong beliefs in the importance of making our science and knowledge accessible.\n\nAll material featured here is licenced under the CC-XYZ common. Please use and share accordingly.\n\n## Partners\n\nOur research is supported by\n\n![](images/partners.png){fig-align=\"center\"}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

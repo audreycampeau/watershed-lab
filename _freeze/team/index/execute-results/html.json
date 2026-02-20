@@ -1,0 +1,15 @@
+{
+  "hash": "c7c38e497ba6889a92ee674138de89db",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Audrey Campeau\"\ndescription: \"Principal Investigator\"\n---\n\nHi 👋 I'm Audrey,\n\nI am an assistant professor in physical geography at the department of geography at the Université de Montréal. I specialize in watershed biogeochemistry and hydrology. My research focuses on ...\n\nI am fascinated with data visualization and I love the endless possibilities that offer programming.\n\n::: g-grid-6\n:::\n\n![](/images/AudreyBio.png)\n\nI teach several courses at the department including the field course ([GEO1315](https://admission.umontreal.ca/cours-et-horaires/cours/geo-1315/)), the watershed course ([GEO3162](https://admission.umontreal.ca/cours-et-horaires/cours/geo-3162/)) and the ecosystem dynamics course ([GEO6100](https://admission.umontreal.ca/cours-et-horaires/cours/geo-6100/)).\n\nMy personal time is devoted to my three young children 🚸. When I can find a minute for myself, I like spend it on creation 🎨 , sports and the outdoors 🥾. I love all textile arts! If you see me wearing something woolly, I probably knitted it 🧶\n\n::::: grid\n::: g-col-6\n### Project 1: Climate Impacts on Watersheds\n\n\\![\\](../images/project1.jpg)\n\nInvestigating how changing precipitation patterns affect watershed hydrology across Quebec.\n\n**\\*\\*Funding:\\*\\*** NSERC Discovery Grant **\\*\\*Duration:\\*\\*** 2023-2026 **\\*\\*Lead:\\*\\*** Jane Doe\n\n\\[Learn more →\\](project1.qmd)\n:::\n\n::: g-col-6\n### Project 2: Ecosystem Services Mapping\n\n\\![\\](../images/project2.jpg)\n\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\n\n**\\*\\*Funding:\\*\\*** Quebec Government **\\*\\*Duration:\\*\\*** 2024-2027 **\\*\\*Lead:\\*\\*** John Smith\n\n\\[Learn more →\\](project2.qmd)\n:::\n:::::\n\n## \n\n<div>\n\n</div>\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

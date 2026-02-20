@@ -1,0 +1,39 @@
+---
+title: ""
+subtitle: ""
+page-layout: article
+#title-block-banner: true
+#title-block-banner-color: "#2c5f8d"
+---
+
+![](images/top_banner.png){fig-align="center"}
+
+## Welcome
+
+The Watershed Lab is an interdisciplinary research group studying watershed processes, with focus on biogeochemistry and hydrology. We want to understand how watershed processes operate, and how they may respond to and shape environmental changes.
+
+What is a watershed? It is the geospatial scale that is defined by the natural flow of water on land. This scale provides a unit for understanding flows of matter and physical processes on land. It's greatest strenght is its interconnecteness - one effect upstream can be perceived over kilometers downstreams.
+
+Our research is based mostly on field observations and combines multiple tools including automated and continuous *in-situ* sensor measurements, isotopic tracers, ground or drone-based imagery including, RGB, thermal infrared images and LIDAR.
+
+We are based at the [departement of geography of University of Montréal](https://geographie.umontreal.ca/accueil/), located at Campus-MIL
+
+## How to use this website
+
+This websites serves as a **diffusion platform** for the research we do collectively in the lab. Here, you will find:
+
+-   Tutorials and data viz material in the resources page.
+
+-   Individual portfolios from team members with details on their research projects.
+
+-   A list of publications, field sites, tools and infrastructures that form the core of our work.
+
+We hold strong beliefs in the importance of making our science and knowledge accessible.
+
+All material featured here is licensed under the CC-XYZ common. Please use and share accordingly.
+
+## Partners
+
+Our research is supported by
+
+![](images/partners.png){fig-align="center"}
