@@ -18,10 +18,10 @@ website:
         href: research/research.html
       - text: "Team"
         menu:
-      - text: "PI | Audrey "
-        href: team/PI/PI.html
-      - text: "Members"
-        href: team/members/members.html
+          - text: "PI | Audrey "
+            href: team/PI/PI.html
+          - text: "Members"
+            href: team/members/members.html
       - text: "Publications"
         href: publications/publications.html
       - text: "Educational Resources"
