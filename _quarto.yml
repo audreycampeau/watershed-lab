@@ -54,17 +54,12 @@ website:
       - icon: envelope
         href: mailto:audrey.campeau@umontreal.ca
         
- # sidebar:
-#    style: "floating"
-#    collapse-level: 2
 
 format:
   html:
     theme: 
       - flatly
       - hydro.scss
-    #backgroundcolor: "#eef6fb"
-    #linkcolor: "#2c7da0"
     toc: true
     toc-depth: 3
     toc-location: right
@@ -77,14 +72,14 @@ format:
     linestretch: 1.8
     code-copy: true
     code-overflow: wrap
-    #link-external-icon: false
-    #link-external-newwindow: true
+    link-external-icon: false
+    link-external-newwindow: true
     anchor-sections: true
     smooth-scroll: true
     
 
-    #citations-hover: true
-    #footnotes-hover: true
+    citations-hover: true
+    footnotes-hover: true
     
     # Syntax highlighting
     highlight-style: github
@@ -93,8 +88,6 @@ format:
     lang: en
     date-format: "MMMM D, YYYY"
     
-    # Include custom header if needed
-    # include-in-header: _includes/in-header.html
 
 # Execute settings for code chunks
 execute:
