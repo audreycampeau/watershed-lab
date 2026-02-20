@@ -15,7 +15,7 @@ website:
       - text: "Home"
         href: index.qmd
       - text: "Research"
-        href: research/research.html
+        href: research/research.qmd
       - text: "Team"
         menu:
         - text: "PI | Audrey "
