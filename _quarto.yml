@@ -5,7 +5,7 @@ project:
 website:
   title: "Watershed Lab"
   description: "Biogeochemistry and Hydrology at UdeM"
-  favicon: images/top_banner.png
+  favicon: images/temporary_logo.png
   
   navbar:
     logo: images/temporary_logo.png

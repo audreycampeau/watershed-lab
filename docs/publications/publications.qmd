@@ -152,8 +152,6 @@ document.addEventListener('DOMContentLoaded', function() {
 </style>
 ```
 
-### Datasets
-
 ### Media Articles
 
 Klimat- och AI-forskning i fokus för 2023 års mottagare av L’Oréal-Unesco For Women in Science-priset - [Sverige Unga Akademi](https://sverigesungaakademi.se/barn-och-samhalle/klimat-och-ai-forskning-i-fokus-for-2023-ars-mottagare-av-loreal-unesco-for-women-in-science-priset/) (2023)
