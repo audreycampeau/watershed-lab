@@ -1,6 +1,7 @@
 ---
 title: "Research"
 date-modified: today
+output-dir: docs
 ---
 
 ## Funded Projects
