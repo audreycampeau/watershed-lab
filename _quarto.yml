@@ -63,9 +63,8 @@ format:
     theme: 
       - flatly
       - hydro.scss
-    #css: styles.css
-    backgroundcolor: "#eef6fb"
-    linkcolor: "#2c7da0"
+    #backgroundcolor: "#eef6fb"
+    #linkcolor: "#2c7da0"
     toc: true
     toc-depth: 3
     toc-location: right
@@ -76,8 +75,6 @@ format:
       margin-width: 250px
     fontsize: 1.1rem
     linestretch: 1.8
-    mainfont: "Atkinson Hyperlegible"
-    monofont: "Source Code Pro"
     code-copy: true
     code-overflow: wrap
     #link-external-icon: false
