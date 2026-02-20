@@ -1,0 +1,50 @@
+---
+title: "Research"
+date-modified: today
+---
+
+## Funded Projects
+
+::::: grid
+::: g-col-6
+### Climate Impacts on Watersheds
+
+Investigating how changing precipitation patterns affect watershed hydrology across Quebec.
+
+**\*\*Funding:\*\*** NSERC Discovery Grant **\*\*Duration:\*\*** 2023-2026 **\*\*Lead:\*\*** A.Campeau
+:::
+
+::: g-col-6
+### Wildfires 
+
+Developing geospatial tools to quantify ecosystem services in urban watersheds.
+
+**\*\*Funding:\*\*** FRQ-new researcher **\*\*Duration:\*\*** 2024-2027 **\*\*Lead:\*\***A.Campeau
+:::
+:::::
+
+::::: grid
+::: g-col-6
+### CONTAC \| the carbon observatory network of the aquatic and terrestrial connectivity
+
+**Funding:** FCI leader // **Duration:** 2024-2026 // **Lead:** A.Campeau
+:::
+
+::: g-col-6
+:::
+:::::
+
+## 
+
+## Field Sites
+
+```{=html}
+<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17" 
+        width="100%" 
+        height="480"
+        style="border:0;"
+        allowfullscreen>
+</iframe>
+```
+
+## Tools and infrastructure
