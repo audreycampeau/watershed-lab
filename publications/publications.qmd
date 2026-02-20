@@ -18,6 +18,7 @@ filters:
 ```{=html}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
   const refsDiv = document.getElementById('refs');
   if (!refsDiv) return;
   
@@ -110,6 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .replace(/\bA\. Campeau\b/g, '<strong>A. Campeau</strong>')
       .replace(/\bAudrey Campeau\b/g, '<strong>Audrey Campeau</strong>');
   });
+});
 });
 </script>
 ```
