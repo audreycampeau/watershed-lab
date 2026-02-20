@@ -1,0 +1,42 @@
+---
+title: "Research Projects"
+---
+
+## Active Projects
+
+::::: grid
+::: g-col-6
+### Project 1: Climate Impacts on Watersheds
+
+\![\](../images/project1.jpg)
+
+Investigating how changing precipitation patterns affect watershed hydrology across Quebec.
+
+**\*\*Funding:\*\*** NSERC Discovery Grant **\*\*Duration:\*\*** 2023-2026 **\*\*Lead:\*\*** Jane Doe
+
+\[Learn more →\](project1.qmd)
+:::
+
+::: g-col-6
+### Project 2: Ecosystem Services Mapping
+
+\![\](../images/project2.jpg)
+
+Developing geospatial tools to quantify ecosystem services in urban watersheds.
+
+**\*\*Funding:\*\*** Quebec Government **\*\*Duration:\*\*** 2024-2027 **\*\*Lead:\*\*** John Smith
+
+\[Learn more →\](project2.qmd)
+:::
+:::::
+
+## Field Sites
+
+```{=html}
+<iframe src="https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17" 
+        width="100%" 
+        height="480"
+        style="border:0;"
+        allowfullscreen>
+</iframe>
+```

@@ -25,14 +25,14 @@
     "href": "research/research.html",
     "title": "Research",
     "section": "",
-    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2"
+    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2\nHobo MX\nTrail Camera\nICOS Water Isotope Analyzer\n\n\n\n\n\nData loggers: Campbell Scientific\nOxygen: Mini-Do2T\nCO2: Vaisala, C-sense and mini-sensors, in air (K33 sense air)\nCH4: Pro-Oceanus, Solub-blue and mini sensors.\nLGR: Ultraportable CO2 and CH4 analyzer"
   },
   {
     "objectID": "research/research.html#funded-projects",
     "href": "research/research.html#funded-projects",
     "title": "Research",
     "section": "Funded Projects",
-    "text": "Funded Projects\n\n\nClimate Impacts on Watersheds\nInvestigating how changing precipitation patterns affect watershed hydrology across Quebec.\n**Funding:** NSERC Discovery Grant **Duration:** 2023-2026 **Lead:** A.Campeau\n\n\nWildfires\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\n**Funding:** FRQ-new researcher **Duration:** 2024-2027 **Lead:**A.Campeau\n\n\n\n\nCONTAC | the carbon observatory network of the aquatic and terrestrial connectivity\nFunding: FCI leader // Duration: 2024-2026 // Lead: A.Campeau"
+    "text": "Funded Projects\n\n\nTaking the pulse of\nInvestigating how changing precipitation patterns affect watershed hydrology across Quebec.\nFunding: NSERC Discovery Grant\nDuration: 2023-2026\nLead: A.Campeau\n\n\nRuisseau sentinels:\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\nFunding: FRQ-new researcher\nDuration: 2024-2027\nLead: A.Campeau\n\n\n\n\nCONTAC | the carbon observatory network of the aquatic and terrestrial connectivity\nFunding: FCI leader\nDuration: 2024-2026\nLead: A.Campeau"
   },
   {
     "objectID": "research/research.html#field-sites",
@@ -130,7 +130,7 @@
     "href": "research/research.html#tools-infrastructure",
     "title": "Research",
     "section": "",
-    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2"
+    "text": "GNSS surveying system : Emlid 2\nGround based Thermal Infrared Imagerie\nO2 Lite Lidar Slam Scanner\n\n\n\n\n\nFlowtracker 2\nHobo MX\nTrail Camera\nICOS Water Isotope Analyzer\n\n\n\n\n\nData loggers: Campbell Scientific\nOxygen: Mini-Do2T\nCO2: Vaisala, C-sense and mini-sensors, in air (K33 sense air)\nCH4: Pro-Oceanus, Solub-blue and mini sensors.\nLGR: Ultraportable CO2 and CH4 analyzer"
   },
   {
     "objectID": "research/research.html#carbon-sensing",
@@ -138,5 +138,82 @@
     "title": "Research",
     "section": "Carbon sensing",
     "text": "Carbon sensing\n\nData loggers: Campbell Scientific\nOxygen: Mini-Do2T\nCO2: Vaisala, C-sense and mini-sensors\nCH4: Pro-Oceanus, Solub-blue and mini sensors.\nCO2 in air: K33 sensor"
+  },
+  {
+    "objectID": "ressources/ressources.html",
+    "href": "ressources/ressources.html",
+    "title": "Educational Ressources",
+    "section": "",
+    "text": "Tutorials\n\n\n[1] 2"
+  },
+  {
+    "objectID": "team/members/members.html",
+    "href": "team/members/members.html",
+    "title": "Team Members",
+    "section": "",
+    "text": "Co-supervised with Jean-François Lapierre\nWhat is the impact of wildfires on aquatic carbon cycling? For my thesis, I use a combination of approaches to answer this vast question at different spatial and temporal scales.\nMy field site within the Watershed Lab is located in the north of Saguenay. There I monitor water level across two hydrological gradients, from headwater stream, headwater lake, to merging lakes downstream in catchments that were affected by wildfires and ones that weren’t. In the burned catchments, I also monitor dissolved gas concentrations CO₂, CH₄ and O₂ and I apply carbon and water isotope tracers along these two transects.\n[Find out more →]"
+  },
+  {
+    "objectID": "team/members/members.html#doctoral-researchers",
+    "href": "team/members/members.html#doctoral-researchers",
+    "title": "Team Members",
+    "section": "",
+    "text": "Co-supervised with Jean-François Lapierre\nWhat is the impact of wildfires on aquatic carbon cycling? For my thesis, I use a combination of approaches to answer this vast question at different spatial and temporal scales.\nMy field site within the Watershed Lab is located in the north of Saguenay. There I monitor water level across two hydrological gradients, from headwater stream, headwater lake, to merging lakes downstream in catchments that were affected by wildfires and ones that weren’t. In the burned catchments, I also monitor dissolved gas concentrations CO₂, CH₄ and O₂ and I apply carbon and water isotope tracers along these two transects.\n[Find out more →]"
+  },
+  {
+    "objectID": "team/members/members.html#master-researchers",
+    "href": "team/members/members.html#master-researchers",
+    "title": "Team Members",
+    "section": "Master researchers",
+    "text": "Master researchers\n\n\nLéonie Thibault-Rousseau\nHow do storm events shape lateral carbon export in forested headwater streams?\nI lead the SBL headwater catchment where I have instrumented a headwater stream and a preferential groundwater flow slope with sensors. I measure continuously CO₂, CH₄ and O₂ gas concentration, along side C-DOM, conductivity, water table height and temperature.\n[Find out more →]\n\n\n\n\n\n\n\n\n\n\nJoël Gaxotte\nCo-supervised with Alexis Berg\nWhat can Earth System Models tell us about the future of land carbon export to oceans globally?\nI use the CNRM-ESM2-1 model to test the effect of different climate change scenarios on organic carbon export from rivers to oceans worldwide\nI produced the tutorial “How to delineate a watershed on R”, which you can find in the resources page.\n\n\n\n\n\n\n\n\n\n\nVincent Villeneuve\nCo-supervised with Jean-François Lapierre\nHow much carbon is exported and emitted from agricultural streams across southern Québec and what are the landscape properties that shape these spatial patterns?\n[Find out more →]"
+  },
+  {
+    "objectID": "team/members/members.html#bachelor-researchers",
+    "href": "team/members/members.html#bachelor-researchers",
+    "title": "Team Members",
+    "section": "Bachelor researchers",
+    "text": "Bachelor researchers\n\n\nLéon Leblanc\nHow much do headwater stream surfaces expand and contract over time and what are the potential implications for annual stream CO₂ emissions.\nI use trail cameras and pressure transducers to track the activation of intermittent streams. I coupled this with drone surveys using thermal infrared imagery. My field site is located at the SBL.\n[Find out more →]"
+  },
+  {
+    "objectID": "team/PI/PI.html",
+    "href": "team/PI/PI.html",
+    "title": "Audrey Campeau",
+    "section": "",
+    "text": "Hi 👋 I’m Audrey,\nI am an assistant professor in physical geography at the department of geography at the Université de Montréal 🇨🇦. I specialize in watershed biogeochemistry and hydrology. My research focuses on headwater catchments, those that have the strongest land-water connectivity💧.\nI am fascinated with data visualization and I love the endless possibilities that programming can offer. I am a strong advocate for open and FARE science.\nMy personal time is devoted to my three young children 🚸. When I can find time for myself, I like to spend it on creation 🎨 and the outdoors 🥾. I love all textile arts! If you see me wearing something woolly, I probably made it 🧶"
+  },
+  {
+    "objectID": "team/PI/PI.html#bio",
+    "href": "team/PI/PI.html#bio",
+    "title": "Audrey Campeau",
+    "section": "",
+    "text": "Hi 👋 I’m Audrey,\nI am an assistant professor in physical geography at the department of geography at the Université de Montréal 🇨🇦. I specialize in watershed biogeochemistry and hydrology. My research focuses on headwater catchments, those that have the strongest land-water connectivity💧.\nI am fascinated with data visualization and I love the endless possibilities that programming can offer. I am a strong advocate for open and FARE science.\nMy personal time is devoted to my three young children 🚸. When I can find time for myself, I like to spend it on creation 🎨 and the outdoors 🥾. I love all textile arts! If you see me wearing something woolly, I probably made it 🧶"
+  },
+  {
+    "objectID": "team/PI/PI.html#teaching",
+    "href": "team/PI/PI.html#teaching",
+    "title": "Audrey Campeau",
+    "section": "Teaching",
+    "text": "Teaching\nI teach several courses at the department including the first field course (Terrain 1 | GEO1315), the watershed course (Bassins Versants | GEO3162) and the ecosystem dynamics course (Dynamiques des Écosystèmes | GEO6100).\n\n\n\n\n\nYou can visualise the data collected for the physical geography portion of the field courses 👇 across different editions. Those reports were produced in collaboration with students and grad-students as part of individual projects using R programming and Quarto.\n\n\n2026 Data Viz report\n\n[Coming up soon]\n\n\n2025 Data Viz report\n\n[Check it out here →]\n\n\n2024 Data Viz report\n\n[Check it out here →]"
+  },
+  {
+    "objectID": "team/alumni/index.html",
+    "href": "team/alumni/index.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "![](../images/project1.jpg)\nInvestigating how changing precipitation patterns affect watershed hydrology across Quebec.\n**Funding:** NSERC Discovery Grant **Duration:** 2023-2026 **Lead:** Jane Doe\n[Learn more →](project1.qmd)\n\n\n\n![](../images/project2.jpg)\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\n**Funding:** Quebec Government **Duration:** 2024-2027 **Lead:** John Smith\n[Learn more →](project2.qmd)"
+  },
+  {
+    "objectID": "team/alumni/index.html#active-projects",
+    "href": "team/alumni/index.html#active-projects",
+    "title": "Research Projects",
+    "section": "",
+    "text": "![](../images/project1.jpg)\nInvestigating how changing precipitation patterns affect watershed hydrology across Quebec.\n**Funding:** NSERC Discovery Grant **Duration:** 2023-2026 **Lead:** Jane Doe\n[Learn more →](project1.qmd)\n\n\n\n![](../images/project2.jpg)\nDeveloping geospatial tools to quantify ecosystem services in urban watersheds.\n**Funding:** Quebec Government **Duration:** 2024-2027 **Lead:** John Smith\n[Learn more →](project2.qmd)"
+  },
+  {
+    "objectID": "team/alumni/index.html#field-sites",
+    "href": "team/alumni/index.html#field-sites",
+    "title": "Research Projects",
+    "section": "Field Sites",
+    "text": "Field Sites"
   }
 ]

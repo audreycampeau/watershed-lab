@@ -1,0 +1,11 @@
+---
+title: "Educational Ressources"
+date-modified: today
+output-dir: docs
+---
+
+# Tutorials
+
+```{r}
+1 + 1
+```

@@ -1,0 +1,104 @@
+---
+title: "Team Members"
+date-modified: today
+---
+
+## Doctoral researchers
+
+::::: grid
+::: g-col-8
+#### Mathilde Bélair
+
+Co-supervised with [Jean-François Lapierre](https://www.lapierrelab.com)
+
+What is the impact of wildfires on aquatic carbon cycling? For my thesis, I use a combination of approaches to answer this vast question at different spatial and temporal scales.
+
+My field site within the Watershed Lab is located in the north of Saguenay. There I monitor water level across two hydrological gradients, from headwater stream, headwater lake, to merging lakes downstream in catchments that were affected by wildfires and ones that weren't. In the burned catchments, I also monitor dissolved gas concentrations CO₂, CH₄ and O₂ and I apply carbon and water isotope tracers along these two transects.
+
+\[Find out more →\]
+:::
+
+::: g-col-4
+![](/images/members/Mathilde.png){width="300"}
+:::
+:::::
+
+## Master researchers
+
+::::::::: grid
+::: g-col-8
+#### Léonie Thibault-Rousseau
+
+How do storm events shape lateral carbon export in forested headwater streams?
+
+I lead the [SBL headwater catchment](https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17) where I have instrumented a headwater stream and a preferential groundwater flow slope with sensors. I measure continuously CO₂, CH₄ and O₂ gas concentration, along side C-DOM, conductivity, water table height and temperature.
+
+\[Find out more →\]
+:::
+
+::: g-col-4
+### 
+
+![](/images/Profile%20Photo.png){fig-align="center" width="300"}
+:::
+
+::: g-col-8
+#### Joël Gaxotte
+
+Co-supervised with [Alexis Berg](https://sites.google.com/site/alexisbergspage/)
+
+What can Earth System Models tell us about the future of land carbon export to oceans globally?
+
+I use the [CNRM-ESM2-1](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001791) model to test the effect of different climate change scenarios on organic carbon export from rivers to oceans worldwide
+
+I produced the tutorial "[How to delineate a watershed on R](https://joelgaxotte.github.io/Delineation_R/Delineation_false.html)", which you can find in the resources page.
+:::
+
+::: g-col-4
+### 
+
+![](/images/Profile%20Photo.png){fig-align="center" width="300"}
+:::
+
+::: g-col-8
+#### Vincent Villeneuve
+
+Co-supervised with [Jean-François Lapierre](https://www.lapierrelab.com)
+
+How much carbon is exported and emitted from agricultural streams across southern Québec and what are the landscape properties that shape these spatial patterns?
+
+\[Find out more →\]
+:::
+
+::: g-col-4
+### 
+
+![](/images/Profile%20Photo.png){fig-align="center" width="300"}
+:::
+:::::::::
+
+## Bachelor researchers
+
+:::::: grid
+::: g-col-8
+### Léon Leblanc
+
+How much do headwater stream surfaces expand and contract over time and what are the potential implications for annual stream CO₂ emissions.
+
+I use trail cameras and pressure transducers to track the activation of intermittent streams. I coupled this with drone surveys using thermal infrared imagery. My [field site](https://www.google.ca/maps/d/edit?mid=1CkgXsz_RnwBhu3fuFGAUrb8hB-nOmpE&ll=45.98854440917971%2C-74.01099000000002&z=17) is located at the SBL.
+
+\[Find out more →\]
+:::
+
+::: g-col-4
+### 
+
+![](/images/Profile%20Photo.png){fig-align="right" width="300"}
+:::
+
+::: g-col-6
+### 
+:::
+::::::
+
+## 

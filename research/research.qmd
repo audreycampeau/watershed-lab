@@ -18,21 +18,27 @@ output-dir: docs
 
 -   Flowtracker 2
 
-## Carbon sensing
+-   Hobo MX
+
+-   Trail Camera
+
+-   ICOS Water Isotope Analyzer
+
+### Carbon sensing
 
 -   Data loggers: Campbell Scientific
 
 -   Oxygen: Mini-Do2T
 
--   CO2: Vaisala, C-sense and mini-sensors
+-   CO2: Vaisala, C-sense and mini-sensors, in air (K33 sense air)
 
 -   CH4: Pro-Oceanus, Solub-blue and mini sensors.
 
--   CO2 in air: K33 sensor
+-   LGR: Ultraportable CO2 and CH4 analyzer
 
 ## Field Sites
 
-<iframe src="https://www.google.com/maps/d/embed?mid=12SbWOxuecU_SBebcJAW0mnsBCFvE0ak&amp;ehbc=2E312F" width="640" height="480">
+<iframe src="https://www.google.com/maps/d/embed?mid=1XhQxU5bQlNBSGpYkAbjyCuK1aHFK2Rk&amp;ehbc=2E312F" width="640" height="480">
 
 </iframe>
 
@@ -40,19 +46,27 @@ output-dir: docs
 
 ::::: grid
 ::: g-col-6
-### Climate Impacts on Watersheds
+### Taking the pulse of 
 
 Investigating how changing precipitation patterns affect watershed hydrology across Quebec.
 
-**\*\*Funding:\*\*** NSERC Discovery Grant **\*\*Duration:\*\*** 2023-2026 **\*\*Lead:\*\*** A.Campeau
+**Funding:** NSERC Discovery Grant
+
+**Duration:** 2023-2026
+
+**Lead:** A.Campeau
 :::
 
 ::: g-col-6
-### Wildfires
+### Ruisseau sentinels: 
 
 Developing geospatial tools to quantify ecosystem services in urban watersheds.
 
-**\*\*Funding:\*\*** FRQ-new researcher **\*\*Duration:\*\*** 2024-2027 **\*\*Lead:\*\***A.Campeau
+**Funding:** FRQ-new researcher
+
+**Duration:** 2024-2027
+
+**Lead:** A.Campeau
 :::
 :::::
 
@@ -60,7 +74,11 @@ Developing geospatial tools to quantify ecosystem services in urban watersheds.
 ::: g-col-6
 ### CONTAC \| the carbon observatory network of the aquatic and terrestrial connectivity
 
-**Funding:** FCI leader // **Duration:** 2024-2026 // **Lead:** A.Campeau
+**Funding:** FCI leader
+
+**Duration:** 2024-2026
+
+**Lead:** A.Campeau
 :::
 
 ::: g-col-6

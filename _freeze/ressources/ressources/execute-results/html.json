@@ -1,0 +1,15 @@
+{
+  "hash": "a960141b1d98c727e31c0d4127dc2c74",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Educational Ressources\"\ndate-modified: today\noutput-dir: docs\n---\n\n# Tutorials\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

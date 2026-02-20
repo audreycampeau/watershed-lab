@@ -16,16 +16,16 @@ website:
         href: index.qmd
       - text: "Research"
         href: research/research.html
-      #- text: "Team"
-      #  menu:
-      #  - text: "PI | Audrey "
-      #    href: team/PI/PI.qmd
-       # - text: "Members"
-      #    href: team/members/members.qmd
+      - text: "Team"
+        menu:
+        - text: "PI | Audrey "
+          href: team/PI/PI.html
+        - text: "Members"
+          href: team/members/members.html
       - text: "Publications"
         href: publications/publications.html
-      #- text: "Educational Resources"
-      #  href: teaching/index.qmd
+      - text: "Educational Resources"
+        href: ressources/ressources.html
       
     right:
       - icon: google
