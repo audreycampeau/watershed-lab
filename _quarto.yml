@@ -80,8 +80,8 @@ format:
     monofont: "Source Code Pro"
     code-copy: true
     code-overflow: wrap
-    link-external-icon: false
-    link-external-newwindow: true
+    #link-external-icon: false
+    #link-external-newwindow: true
     anchor-sections: true
     smooth-scroll: true
     
