@@ -1,0 +1,8 @@
+- title: Comment delimiter un bassin versant dans R?
+  path: https://audreycampeau.github.io/tutoriel-delim-BV/
+  image: ../images/tutorials/watershed_delin_preview.png
+  authors: Joël Gaxotte & Audrey Campeau
+  description: >
+    ce tutoriel vous permet de delimiter un bassin versant a partir d'un modèle d'élévation
+    numérique et des coordonnées gps d'un point d'écoulement.
+  categories: [R, GIS, Hydrology]

@@ -1,0 +1,103 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Watershed Lab"
+  description: ""
+  favicon: images/Logo_Icon.png
+  
+  navbar:
+    logo: images/Logo_Icon.png
+    background: "#1a4d6e"  # Deep ocean
+    foreground: "#f5f5f0"  # Off-white
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research/research.html
+      - text: "Team"
+        menu:
+          - text: "PI | Audrey "
+            href: team/PI/PI.html
+          - text: "Members"
+            href: team/members/members.html
+      - text: "Publications"
+        href: publications/publications.html
+      - text: "Educational Resources"
+        href: ressources/ressources.html
+      
+    right:
+      - icon: google
+        href: https://scholar.google.com/citations?user=3rr3LlwAAAAJ&hl=en
+      - icon: mortarboard-fill
+        href: https://recherche.umontreal.ca/en/chercheur/is/in36574/
+      - icon: github
+        href: https://github.com/audreycampeau
+      - icon: envelope
+        href: mailto:audrey.campeau@umontreal.ca
+
+  page-footer:
+    border: true
+    background: light
+    left: |
+      © 2025 Watershed Lab at Université de Montréal. All rights reserved.
+    center: |
+      This website was built with [Quarto](https://quarto.org)
+    right:
+      - icon: google
+        href: https://scholar.google.com/citations?user=3rr3LlwAAAAJ&hl=en
+      - icon: mortarboard-fill
+        href: https://recherche.umontreal.ca/en/chercheur/is/in36574/
+      - icon: github
+        href: https://github.com/audreycampeau
+      - icon: envelope
+        href: mailto:audrey.campeau@umontreal.ca
+        
+
+format:
+  html:
+    theme: 
+      - flatly
+      - hydro.scss
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    page-layout: article
+    grid:
+      body-width: 900px
+      sidebar-width: 250px
+      margin-width: 250px
+    fontsize: 1.1rem
+    linestretch: 1.8
+    mainfont: "Atkinson Hyperlegible"
+    monofont: "Source Code Pro"
+    code-copy: true
+    code-overflow: wrap
+    link-external-icon: false
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    
+
+    citations-hover: true
+    footnotes-hover: true
+    
+    # Syntax highlighting
+    highlight-style: github
+    
+    # Additional metadata
+    lang: en
+    date-format: "MMMM D, YYYY"
+    
+
+
+# Execute settings for code chunks
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+
+# Editor settings
+editor: visual

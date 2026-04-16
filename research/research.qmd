@@ -1,0 +1,104 @@
+---
+title: "Research"
+date-modified: today
+listing: default
+output-dir: docs
+---
+
+![](/images/Watershed_Lab_logo.png){fig-align="center" width="403"}
+
+## Field Sites
+
+Here's a map of the study sites where we draw observations from:
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1XhQxU5bQlNBSGpYkAbjyCuK1aHFK2Rk&amp;ehbc=2E312F" width="640" height="480">
+
+</iframe>
+
+## Funded Projects
+
+<div>
+
+#### **Taking the pulse of Québec's headwaters**
+
+-   Lead researcher : Audrey Campeau
+-   Funding sources: CRSNG/Conseil de recherches en sciences naturelles et génie du Canada (CRSNG)
+-   Grant programs: PVXXXXXX-(DGECR) Tremplin vers la découverte
+-   Duration: 2024-2030
+
+</div>
+
+<div>
+
+#### CONTAC \| the carbon observatory network of the aquatic and terrestrial connectivity
+
+-   Lead researcher: Audrey Campeau
+-   Funding sources: FCI/Fondation canadienne pour l'innovation
+-   Grant programs: John R. Evans Leaders Fund
+
+</div>
+
+<div>
+
+#### **Ruisseaux Sentinelles: Révéler les Impacts à Long Terme des Feux de Forêt sur le Bilan Carbone des Forêts Canadiennes**
+
+-   Lead researcher : Audrey Campeau
+-   Funding sources: FRQNT/Fonds de recherche du Québec - Nature et technologies (FQRNT)
+-   Grant programs: PVXXXXXX-(NC) Établissement de la relève professorale
+-   Duration: 2025-2028
+
+</div>
+
+<div>
+
+#### **Women in Science Award**
+
+-   Lead researcher : Audrey Campeau
+-   Funding sources: L'Oréal Sverige AB Sweden
+
+</div>
+
+<div>
+
+#### **Inside the black box: assessing the stability of the greenhouse gases storage in northern peatland.**
+
+-   Lead researcher : Audrey Campeau
+-   Funding sources: Formas/Swedish Research Council for sustainable development
+-   Grant programs: Mobility grant
+-   Duration: 2020-2023
+
+</div>
+
+## Equipment & Infrastructure
+
+### Geospatial toolkit
+
+-   GNSS surveying system : [EMLID RS3](https://candrone.com/products/reach-rs3?srsltid=AfmBOoqj7ljre8LxEL7G-NxqbL4Qy1N_g6oqUYfQbxyS1hSq9v-WeJO-)
+
+-   Ground based thermal imagery: [FLIR T560 camera](https://www.itm.com/product/flir-t560-professional-thermal-imaging-camera-89009-0101?gad_source=1&gad_campaignid=22931949025&gbraid=0AAAAAD39hO9HHjPoBZwkh_3B3pudbbutW&gclid=CjwKCAjw1tLOBhAMEiwAiPkRHk3RYHEI84yjhrxXUWKP03XVMW8bIGvvnXoWiLnDVZD2HJwAfW8ZqxoCt7YQAvD_BwE)
+
+-   Ground based LIDAR scanner: [LiGrip O2 Lite](https://candrone.com/products/ligrip-02-lite?srsltid=AfmBOorbCBwDrdvJKeMxuOK9wpMDWvGL1sOgNV4Ai02nwS4YGy96GbF6)
+
+### Hydrological observations
+
+-   Acoustic doppler velocimeter: [FlowTracker 2 -ADV](https://hoskin.ca/fr/produit/flowtracker2-location/)
+
+-   Pressure Transducers: [Hobo MX](https://shoponset.hoskin.ca/products/hobo-mx801-water-data-logger-copy)
+
+-   Trail Cameras:
+
+-   Underwater microphones: [Hydromoths](https://groupgets.com/products/hydromoth)
+
+-   ICOS Water Isotope Analyzer
+
+### Carbon sensing
+
+-   Data loggers: Campbell Scientific
+
+-   Oxygen: Mini-Do2T
+
+-   CO2: Vaisala, C-sense and mini-sensors, in air (K33 sense air)
+
+-   CH4: Pro-Oceanus, Solub-blue and mini sensors.
+
+-   LGR: Ultraportable CO2 and CH4 analyzer

@@ -1,0 +1,26 @@
+---
+title: "Educational Resources"
+listing:
+  - id: tutorials
+    contents: ressources.yml
+    type: grid
+    categories: true
+    sort: "title"
+    fields: [image, title, authors, description, categories]
+ # - id: dataviz
+#    contents: dataviz.yml   # or whatever your source file is
+#    type: grid
+#    categories: true
+#    sort: "title"
+#    fields: [title, description, categories]
+---
+
+# Tutorials
+
+::: {#tutorials}
+:::
+
+# Dataviz
+
+::: {#dataviz}
+:::

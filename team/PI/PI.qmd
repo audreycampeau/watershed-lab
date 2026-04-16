@@ -1,0 +1,82 @@
+---
+page-layout: article
+title: "Audrey Campeau"
+description: "Principal Investigator"
+---
+
+## Bio
+
+::::: grid
+::: g-col-8
+Hi I'm Audrey,
+
+I am an assistant professor in physical geography at the department of geography at the Université de Montréal. I specialize in watershed biogeochemistry and hydrology. My research focuses on headwater catchments, those that have the strongest land-water connectivity💧.
+
+I am fascinated with data visualization and I love the endless possibilities that programming can offer. I am a strong advocate for open and FARE science.
+
+My personal time is devoted to my three young children 🚸. I love all textile arts! If you see me wearing something woolly, I probably made it 🧶
+:::
+
+::: g-col-4
+### 
+
+![](/images/Profile%20Photo.png){fig-align="center" width="300"}
+:::
+:::::
+
+#### Academic timeline
+
+![](/images/audrey_bio.png)
+
+## Affiliation
+
+:::: grid
+::: g-col-8
+I am a member of the [Groupe de recherche interuniversitaire en limnologie (GRIL).](https://oraprdnt.uqtr.uquebec.ca/portail/gscw031?owa_no_site=543)
+:::
+::::
+
+## Awards
+
+-   [*L’Oréal – UNESCO prize for Women in Science, Sweden*](https://sverigesungaakademi.se/barn-och-samhalle/klimat-och-ai-forskning-i-fokus-for-2023-ars-mottagare-av-loreal-unesco-for-women-in-science-priset/) (2023)
+
+-   *King Carl XVI Gustaf’s 50^th^ anniversary fund* for science, technology and the environment (2020)
+
+-   *Alfort Prize- Best PhD in Natural Geography* from the Swedish Society for Anthropology and Geography (SSAG) (2020)
+
+## Teaching
+
+I teach several courses at the department including the first field course (Terrain 1 \| [GEO1315](https://admission.umontreal.ca/cours-et-horaires/cours/geo-1315/)), the watershed course (Bassins Versants \| [GEO3162](https://admission.umontreal.ca/cours-et-horaires/cours/geo-3162/)) and the ecosystem dynamics course (Dynamiques des Écosystèmes \| [GEO6100](https://admission.umontreal.ca/cours-et-horaires/cours/geo-6100/)).
+
+:::: grid
+::: g-col-8
+:::
+::::
+
+You can visualise the data collected for the physical geography portion of the field courses 👇 across different editions. Those reports were produced in collaboration with students and grad-students as part of individual projects using R programming and Quarto.
+
+:::::: grid
+::: g-col-4
+#### 2026 Data Viz report
+
+![](/images/Teaching/Logo_2026.png){width="300"}
+
+\[Coming up soon\]
+:::
+
+::: g-col-4
+#### 2025 Data Viz report
+
+![](/images/Teaching/Logo_2025.png){width="300"}
+
+\[[Check it out here →](https://audreycampeau.github.io/GEO1315_2025_DataViz/)\]
+:::
+
+::: g-col-4
+#### 2024 Data Viz report
+
+![](/images/Teaching/Logo_2024.png){width="300"}
+
+\[[Check it out here →](https://audreycampeau.github.io/geo-terrain/)\]
+:::
+::::::

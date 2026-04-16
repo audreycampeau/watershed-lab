@@ -1,0 +1,47 @@
+
+// Color Palette - Hydrology Inspired
+$water-mist: #e8f4f8;  // Very light, airy blue
+$water-mist: #f0f8fc;  // Even lighter, almost white with a hint of blue
+$water-mist: #eef6fb;  // Soft, barely-there blue
+$water-mist: #f5fbff;  // Extremely light, crisp blue-white
+
+
+/*-- scss:defaults --*/
+$body-color: #1a4d6e;
+$link-color: #2c7da0;
+$primary: #1a4d6e;
+$secondary: #468faf;
+$water-mist: #d4e6f1;
+$soft-water-mist: #eef6fb;  // Soft, barely-there blue
+
+// Warning text colors
+$low-value: #3498db;       // Low/cold - blue
+$mid-value: #f39c12;       // Medium - orange
+$high-value: #e74c3c;      // High/warm - red
+
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:wght@400;600&display=swap');
+$font-family-sans-serif: 'Fira Code'; // -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Atkinson Hyperlegible";//, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+body {
+  background-color: $soft-water-mist;
+  color: $body-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  font-weight: 600;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  
+  &:hover {
+    color: darken($link-color, 10%);
+    text-decoration: underline;
+  }
+}
