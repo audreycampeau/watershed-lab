@@ -1,8 +1,7 @@
-- title: Comment delimiter un bassin versant dans R?
-  path: https://audreycampeau.github.io/tutoriel-delim-BV/
-  image: ../images/tutorials/watershed_delin_preview.png
-  authors: Joël Gaxotte & Audrey Campeau
-  description: >
-    ce tutoriel vous permet de delimiter un bassin versant a partir d'un modèle d'élévation
-    numérique et des coordonnées gps d'un point d'écoulement.
-  categories: [R, GIS, Hydrology]
+- title: Visualisation des données physique (GEO1315, édition 2025)
+  path: https://audreycampeau.github.io/GEO1315_2025_DataViz/
+  image: ../images/Teaching/Logo_2025.png
+  authors: François Kabambi & Audrey Campeau
+  description: > 
+    Ce document comporte une courte analyse de données sur les données physiques récoltées par vous 🫵, futures géographes, durant le cours terrain 1 en géographie
+  categories: [R, Education, Limnology]

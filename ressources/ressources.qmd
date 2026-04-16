@@ -7,12 +7,12 @@ listing:
     categories: true
     sort: "title"
     fields: [image, title, authors, description, categories]
- # - id: dataviz
-#    contents: dataviz.yml   # or whatever your source file is
-#    type: grid
-#    categories: true
-#    sort: "title"
-#    fields: [title, description, categories]
+  - id: dataviz
+    contents: dataviz.yml   # or whatever your source file is
+    type: grid
+    categories: true
+    sort: "title"
+    fields: [image, title, authors, description, categories]
 ---
 
 # Tutorials
