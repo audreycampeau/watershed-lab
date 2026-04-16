@@ -11,7 +11,7 @@ listing:
     contents: dataviz.yml   # or whatever your source file is
     type: grid
     categories: true
-    sort: "title"
+    sort: "date"
     fields: [image, title, authors, description, categories]
 ---
 

@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-authors','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-authors","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-image","listing-authors","listing-date","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -256,7 +256,7 @@ window.Quarto = {
   <li><a href="#dataviz" id="toc-dataviz" class="nav-link" data-scroll-target="#dataviz">Dataviz</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RWR1Y2F0aW9u">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R0lT">GIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlkcm9sb2d5">Hydrology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGltbm9sb2d5">Limnology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RWR1Y2F0aW9u">Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R0lT">GIS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SHlkcm9sb2d5">Hydrology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGltbm9sb2d5">Limnology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -303,7 +303,7 @@ Comment delimiter un bassin versant dans R?
 
 </div>
 <div class="card-text listing-description delink">
-<p>ce tutoriel vous permet de delimiter un bassin versant a partir d’un modèle d’élévation numérique et des coordonnées gps d’un point d’écoulement.</p>
+<p>Ce tutoriel vous permet de delimiter un bassin versant à partir d’un modèle d’élévation numérique et de coordonnées GPS d’un point d’écoulement.</p>
 </div>
 <table class="card-other-values">
 
@@ -312,7 +312,7 @@ Comment delimiter un bassin versant dans R?
 authors
 </td>
 <td class="authors">
-Joël Gaxotte, Audrey Campeau
+Joël Gaxotte &amp; Audrey Campeau
 </td>
 </tr>
 
@@ -328,15 +328,52 @@ Joël Gaxotte, Audrey Campeau
 <h1>Dataviz</h1>
 <div id="listing-dataviz" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="UiUyQ0VkdWNhdGlvbiUyQ0xpbW5vbG9neQ==">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ0VkdWNhdGlvbiUyQ0xpbW5vbG9neQ==" data-listing-date-sort="1723262400000">
+<a href="https://audreycampeau.github.io/GEO1315_2024_Dataviz/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../images/Teaching/Logo_2024.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title" data-anchor-id="dataviz">
+Visualisation des données physiques (GEO1315, édition 2024)
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2F0aW9u'); return false;">Education</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGltbm9sb2d5'); return false;">Limnology</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Ce document comporte une courte analyse de données sur les données physiques récoltées par vous 🫵, futures géographes, durant le cours terrain 1 en géographie</p>
+</div>
+<table class="card-other-values">
+
+<tbody><tr>
+<td>
+authors
+</td>
+<td class="authors">
+Sara-Ève Dionne &amp; Audrey Campeau
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UiUyQ0VkdWNhdGlvbiUyQ0xpbW5vbG9neQ==" data-listing-date-sort="1757476800000">
 <a href="https://audreycampeau.github.io/GEO1315_2025_DataViz/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="../images/Teaching/Logo_2025.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title" data-anchor-id="dataviz">
-Visualisation des données physique (GEO1315, édition 2025)
+<h5 class="no-anchor card-title listing-title">
+Visualisation des données physiques (GEO1315, édition 2025)
 </h5>
 <div class="listing-categories">
 

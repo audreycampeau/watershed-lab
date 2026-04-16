@@ -2,6 +2,16 @@
   path: https://audreycampeau.github.io/GEO1315_2025_DataViz/
   image: ../images/Teaching/Logo_2025.png
   authors: François Kabambi & Audrey Campeau
+  date: 2025-09-10
+  description: > 
+    Ce document comporte une courte analyse de données sur les données physiques récoltées par vous 🫵, futures géographes, durant le cours terrain 1 en géographie
+  categories: [R, Education, Limnology]
+  
+- title: Visualisation des données physiques (GEO1315, édition 2024)
+  path: https://audreycampeau.github.io/GEO1315_2024_Dataviz/
+  image: ../images/Teaching/Logo_2024.png
+  authors: Sara-Ève Dionne & Audrey Campeau
+  date: 2024-08-10
   description: > 
     Ce document comporte une courte analyse de données sur les données physiques récoltées par vous 🫵, futures géographes, durant le cours terrain 1 en géographie
   categories: [R, Education, Limnology]
